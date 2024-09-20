@@ -1,8 +1,30 @@
-# Lama Dev School Management Dashboard
+# Dashboard de gerenciamento da aplicação Nossa Agenda
 
-## Getting Started
+Este projeto é um dashboard de gerenciamento para a aplicação Nossa Agenda, que realiza agendamentos e lembretes para prestadores de qualquer tipo de serviço e seus clientes.
 
-First, run the development server:
+## Funcionalidades
+
+- Gerenciamento de prestadores de serviço
+- Gerenciamento de clientes
+- Agendamento de serviços
+- Lembretes para prestadores de serviço
+- Gerenciamento de serviços
+
+## Iniciando o projeto
+
+Primeiro, executar o comando para instalar as dependências:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+Logo após a instalação das dependências, execute o comando para iniciar o projeto:
 
 ```bash
 npm run dev
@@ -14,13 +36,4 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
+Abrir [http://localhost:3000](http://localhost:3000) com o navegador a sua escolha para ver o resultado.
